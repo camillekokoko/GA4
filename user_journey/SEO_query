@@ -1,0 +1,35 @@
+===================================
+1. YS:
+include 
+query
+REGEXP_CONTAINS
+(.*yesstyle.*|.*イエススタイル.*|.*yes style.*|.*yestyle.*|.*yesstle.*|.*yesste.*|.*yesstile.*|.*yesstlye.*|.*yesstye.*|.*yess style.*|.*yes styles.*|.*yesstylr.*|.*yestile.*|.*yessyle.*|.*yesstyl.*|.*يس ستايل.*|.*yessty.*|.*yesstule.*|.*uesstyle.*|.*yessttyle.*|.*yeastyle.*|.*ystyle.*|.*예스스타일.*|.*yestail.*|.*yesスタイル.*|.*yes stule.*|.*yeststyle.*|.*ysstyle.*)
+===================================
+2. Asian - KR + JP
+
+include 
+query 
+REGEXP_CONTAINS
+(.*korean.*|.*k beauty.*|.*japanese.*|.*asian.*|.*kbeauty.*)
+
+AND
+
+exclude 
+query 
+REGEXP_CONTAINS
+(.*yesstyle.*|.*イエススタイル.*|.*yes style.*|.*yestyle.*|.*yesstle.*|.*yesste.*|.*yesstile.*|.*yesstlye.*|.*yesstye.*|.*yess style.*|.*yes styles.*|.*yesstylr.*|.*yestile.*|.*yessyle.*|.*yesstyl.*|.*يس ستايل.*|.*yessty.*|.*yesstule.*|.*uesstyle.*|.*yessttyle.*|.*yeastyle.*|.*ystyle.*|.*예스스타일.*|.*yestail.*|.*yesスタイル.*|.*yes stule.*|.*yeststyle.*|.*ysstyle.*)
+===================================
+3. Brand
+
+include 
+query 
+REGEXP_CONTAINS
+(.*canmake.*|.*romand.*|.*numbuzin.*|.*ropa coreana.*|.*3ce.*|.*sioris.*|.*i'm from rice.*|.*timeless.*|.*chuu.*|.*isntree.*|.*amanee.*|.*purito.*|.*mizon.*|.*biore.*|.*i'm from.*|.*peripera.*|.*elizavecca.*|.*isehan.*|.*melano cc.*|.*im from.*|.*beauty of joseon.*|.*pmel.*|.*rovectin.*|.*pyunkang.*|.*laneige.*|.*maquillaje coreano.*|.*innisfree.*|.*anessa.*|.*holika holika.*|.*heimish.*|.*make prem.*|.*rnw.*|.*etude house.*|.*axis y.*|.*cosrx.*|.*jumiso.*|.*skin aqua.*|.*hada labo.*)
+
+AND
+
+exclude 
+query 
+REGEXP_CONTAINS
+(.*yesstyle.*|.*イエススタイル.*|.*yes style.*|.*yestyle.*|.*yesstle.*|.*yesste.*|.*yesstile.*|.*yesstlye.*|.*yesstye.*|.*yess style.*|.*yes styles.*|.*yesstylr.*|.*yestile.*|.*yessyle.*|.*yesstyl.*|.*يس ستايل.*|.*yessty.*|.*yesstule.*|.*uesstyle.*|.*yessttyle.*|.*yeastyle.*|.*ystyle.*|.*예스스타일.*|.*yestail.*|.*yesスタイル.*|.*yes stule.*|.*yeststyle.*|.*ysstyle.*)
+===================================
